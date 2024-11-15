@@ -1,0 +1,73 @@
+.Carde{
+    display: flex;
+    background-color: #384bff;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 95%;
+}
+
+.Carde div{
+    margin-left: 50px;
+}
+.Span2{
+    font-size: 30px;
+}
+.Base1{
+    width: 31%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid  #7d71c1;
+    padding: 30px 0px;
+    margin: 80px 0px;
+}
+.Base1:hover .Button2 , .Base1:hover .Carde {
+    background-color:#18185e;
+    color: white;
+}
+.Ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.Button2{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid   #7d71c1;
+    color:  #384bff;
+}
+.xx{
+    color: red;
+}
+.Ul li{
+    margin: 5px 0px;
+}
+@media(max-width : 1240px){
+    .Carde img{
+        width: 50px;
+    }
+    .Carde{
+        padding: 10px;
+    }
+    .Carde div{
+        margin-left: 10px;
+    }
+}
+@media(max-width : 1000px){
+    .Base1{
+        width: 49%;
+        margin: 10px 0px;
+    }
+    .Button2{
+        font-size: 15px;
+    }
+}
+@media(max-width : 670px){
+    .Base1{
+        width: 85%;
+        margin: 7% 20px;
+    }
+}

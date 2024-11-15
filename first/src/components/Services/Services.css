@@ -1,0 +1,61 @@
+.div1 span{
+    margin: 0px 8px;
+}
+.div1{
+    color: #384bff;
+}
+.section-ser{
+    width: 80%;
+    margin: auto;
+    /* margin-top: 80px; */
+    position: relative;
+    padding: 0;
+}
+h2{
+    /* width: 500px; */
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.arrow2{
+    color:#384bff;
+    font-size: 30px;
+}
+.arrow1{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.arrows{
+    position: absolute;
+    left: 95%;
+    top: 20%;
+}
+.div-card1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+@media(max-width :1250px ){
+    h2{
+        font-size: 25px;
+    }
+    .arrows{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        top: 10%;
+        
+    }
+}
+@media(max-width : 570px){
+    .arrows{
+        left: 0%;
+        top: 18%;
+    }
+}
+@media(max-width : 510px){
+    h2{
+        font-size: 20px;
+        overflow: hidden;
+    }
+}

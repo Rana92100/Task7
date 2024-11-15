@@ -1,0 +1,266 @@
+.hero .hero-div {
+    background-color: #384bff;
+    width: 95%;
+    margin: auto;
+    padding: 100px 70px;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.hero {
+    color: white;
+    height: calc(100vh - 50px);
+    position: relative;
+}
+
+.hero .wave {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.hero .hero-div2 {
+    display: flex;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 0px 8px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.hero .half-hero {
+    width: 50%;
+}
+
+.hero .half-hero h1 {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.hero .some-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px 10px -15px;
+}
+
+.hero .some-div div {
+    margin: 10px 0px;
+    width: 34%;
+
+}
+
+.hero .half-hero button {
+    background-color: #f98600;
+    padding: 8px 20px;
+}
+
+.hero .star1 {
+    color: #00b67a;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.box .photos {
+    display: flex;
+    width: 200px;
+    margin: 15px 0px;
+}
+
+.box .photos img {
+    height: 40px;
+    margin-right: 13px;
+    width: 100px;
+}
+
+.hero .star {
+    color: #f98600;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.box {
+    display: flex;
+    background-color: #4c5dff;
+    margin-bottom: -95px;
+    margin-top: 50px;
+    padding: 20px 10px 10px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.box .line {
+    width: 1px;
+    height: 100px;
+    background-color: rgb(224, 239, 231) !important;
+}
+
+.hero .img-circle {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    margin: auto;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 5;
+    top: 80%;
+}
+
+.hero .img-circle img {
+    margin-left: 5px;
+    margin-top: 8px
+}
+
+.hero .hero-half2 {
+    width: 50%;
+    position: relative;
+}
+
+.img-1 {
+    position: absolute;
+    left: 10%;
+    width: 300px;
+    z-index: 2;
+    height: 549px;
+}
+
+.img-2 {
+    position: absolute;
+    left: 40%;
+    width: 460px;
+    z-index: 1;
+    height: 580px;
+}
+
+.after-img {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.after-img .icon {
+    margin-left: 60px;
+}
+
+.befor-img {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+}
+
+.after-img div {
+    background-color: #927dfc;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.befor-img div {
+    background-color: #019fee;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+@media(max-width : 1250px) {
+
+    .hero .hero-half2 .img-2,
+    .hero .half-hero .img-circle,
+    .hero .hero-half2 .after-img,
+    .hero .hero-half2 .befor-img {
+        display: none;
+    }
+    .hero .half-hero{
+        width: 70%;
+    }
+    .hero .hero-half2 {
+        width: 30%;
+        position:none;
+    }
+
+    .hero .hero-half2 .img-1 {
+        width: 250px;
+        height: 480px;
+        left: 0px;
+        padding-right: 50px;
+    }
+    .hero .some-div div{
+        width: 50%;
+    }
+    .hero .hero-div {
+        justify-content: space-between;
+    }
+    .hero{
+        height: fit-content;
+    }
+
+}
+@media(max-width : 975px){
+    .hero .hero-div {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        /* text-align: center; */
+        
+    }
+    .hero .half-hero{
+        width: 100%;
+    }
+    .hero .hero-half2 {
+        width: 60%;
+        margin: auto;
+    }
+    .hero .some-div div{
+        width: 50%;
+        text-align: center;
+    }
+    .half-hero button{
+        margin: 0px ;
+    }
+    /* .half-hero h1{
+        width: 400px;
+    } */
+    .hero .hero-half2 .img-1 {
+        top: -80px;
+    }
+    .half-hero{
+        margin-top: 450px;
+    }
+    .box{
+        flex-direction: column;
+        width: fit-content;
+        padding: 30px 100px;
+    }
+    .box .line{
+        display: none;
+    }
+    .box .linE2{
+        width: 200px;
+        height: 1px;
+        background-color: white;
+        margin: auto;
+        margin: 10px 0px;
+    }
+    
+} 
+@media(max-width : 560px){
+    .hero .some-div div{
+        width: 100%;
+        text-align: left;
+    }
+    .hero .hero-div{
+        padding: 100px 15px;
+    }
+    .some-div{
+        padding-left: 30px;
+    }
+    .box{
+        padding: 30px;
+    }
+    .box .linE2{
+        margin: 5px 0px;
+    }
+}

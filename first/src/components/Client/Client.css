@@ -1,0 +1,110 @@
+.Con-span{
+    margin: 20px 15px;
+}
+.Basec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #384bff;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: -250px;
+    position: absolute;
+}
+.Basec div{
+    width: 33%;
+}
+.Basec button{
+    margin-left: 80px;
+}
+.Center{
+    color: white;
+}
+h3{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.Center2{
+    text-align: center;
+}
+.Center2 div{
+    color: #384bff;
+    margin: 15px 0px;
+}
+.Card-4{
+    display:flex ;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.line3{
+    width: 33%;
+    background-color:#ebedff;
+    border-radius: 20px;
+    margin: auto;
+    height: 20px;
+}
+.Section3{
+    background-color:#f2f6fe;
+    padding: 100px 0px;
+}
+.line-line{
+    width: 33%;
+    height: 20px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 20px;
+}
+.Clien{
+    position: relative;
+    padding-top: 200px;
+}
+@media(max-width : 1230px){
+    .Basec button{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .Basec h3{
+        font-size: 20px;
+    }
+    .Basec img{
+        width: 200px;
+    }
+}
+@media(max-width : 1000px){
+    .Clien{
+        margin-top: 50px;
+    }
+    .Basec{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Center{
+        margin: 10px 0px;
+    }
+    .Basec div{
+        width: 73%;
+    }
+    .Section3{
+        padding: 250px 0px 50px 0px;
+    }
+    .Section3 h3{
+        width: 100%;
+    }
+}
+@media(max-width : 500px){
+    .Basec{
+        padding: 10px;
+    }
+    .Basec div{
+        width: 100%;
+        font-size: 15px;
+    }
+    .Section3{
+        padding: 150px 0px ;
+    }
+
+}

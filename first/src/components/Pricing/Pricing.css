@@ -1,0 +1,92 @@
+h2 , .Div1{
+    font-weight: bold;
+}
+.Basic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Section{
+    padding: 100px 0px 0px 0px;
+}
+.Span{
+    margin: 0px 10px;
+}
+.Div{
+    display: flex;
+    align-items: center;
+}
+.Div img{
+    margin: 0px 15px;
+}
+.Div button{
+    border: 0px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Div button:focus{
+    background-color:  #384bff;
+    color: white;
+}
+.But{
+    border: 1px solid  #384bff;
+    border-radius: 50px;
+    padding: 0px 5px 10px 5px;
+}
+.Div span , .Div1{
+    color: #384bff;
+}
+.img2{
+    position: relative;
+}
+.img2 img{
+    position: absolute;
+    right: 50px;
+    top: -200px;
+}
+.sum-dev{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Butt2{
+    display: flex;
+    align-items: center;
+}
+.img3 img{
+    margin-top: -350px;
+    width: 150px;
+}
+@media(max-width : 1200px){
+    .img2{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+}
+@media(max-width : 768px){
+    .Basic .Div{
+        flex-direction: column;
+    }
+}
+@media(max-width : 560px){
+    .Basic .Div .Butt2{
+        flex-direction: column;
+    }
+}
+@media(max-width : 1000px){
+    .sum-dev{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width : 670px){
+    .Butt2{
+        flex-direction: column;
+    }
+}

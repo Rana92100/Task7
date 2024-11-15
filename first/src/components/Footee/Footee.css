@@ -1,0 +1,148 @@
+.Foot{
+    background-color:  #18185e;
+    padding: 100px 0px;
+}
+.Footer{
+    padding: 300px 0px 100px 0px;
+    background-color: #18185e;
+}
+.child-foot{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.child-foot .quarter{
+    width: 23%;
+    color: white;
+}
+.child-foot .quarter2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.child-foot .quarter .small-line{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0px;
+}
+.child-foot .quarter ul {
+    list-style: none;
+}
+.child-foot .quarter ul li{
+    margin: 15px 0px;
+}
+.child-foot .quarter ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.child-foot .quarter .P{
+    margin: 50px 0px;
+}
+.child-foot .icon-1{
+    border: 1px white solid;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding-left: 7px;
+    margin-right: 7px;
+}
+.child-foot .divv-icon{
+    display: flex;
+}
+.foo{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+.finally{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.finally button{
+    background-color:  #384bff;
+    border: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.finally input{
+    border: 0px;
+    padding-left: 10px;
+}
+.finally .icon{
+    color: white;
+    font-size: 20px;
+}
+.cheek{
+    margin: 20px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.cheek a{
+    color: white;
+    text-decoration: white;
+}
+.cheek p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.child2-footer{
+    background-color: #384bff;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    align-items: center;
+    padding: 20px 0px;
+}
+.child2-footer div{
+    display: flex;
+}
+.child2-footer div p{
+    margin: 0px 10px;
+}
+@media(max-width : 1240px){
+    .child-foot .quarter{
+        width: 43%;
+        color: white;
+        margin-top: 20px;
+    }
+    .child-foot{
+        flex-wrap: wrap;
+    }
+    .foo{
+        justify-content:start;
+    }
+    .foo img{
+        margin-right: 10px;
+    }
+}
+@media(max-width : 720px){
+    .child-foot .quarter{
+        width: 98%;
+        color: white;
+        text-align: start;
+    }
+    .child-foot .quarter2{
+        align-items: start;
+    }
+}
+@media(max-width : 630px){
+    .child2-footer{
+        flex-direction: column;
+    }
+}
+@media(max-width : 335px){
+    .finally button{
+        padding: 5px;
+    }
+}

@@ -1,0 +1,53 @@
+.Card6{
+    width: 24%;
+    background-color: #18185e;
+    border-radius: 15px;
+}
+.Card6 img{
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-Right-radius: 15px;
+
+}
+.Card6  div{
+    text-align: center;
+    color: white;
+    padding: 20px 0px 30px 0px;
+}
+.Shar{
+    color: #384bff ;
+    font-size: 40px;
+    position: absolute;
+    top: 67%;
+    right: 30px;
+}
+.base-shar{
+    position: relative;
+}
+@media(max-width :1240px ){
+    .Card6{
+        width: 45%;
+        margin-top: 10px;
+    }
+    
+}
+@media(max-width : 650px){
+    .Card6 img{
+        height: 200px;
+    }
+    .Shar{
+        color: #384bff ;
+        font-size: 40px;
+        position: absolute;
+        top: 55%;
+    }
+}
+@media(max-width : 500px){
+    .Card6{
+        width: 85%;
+    }
+    .Shar{
+        right: 80px;
+    }
+}

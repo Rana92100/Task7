@@ -1,0 +1,32 @@
+.sum-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+.TEXT{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media(max-width : 1240px){
+    .no{
+        display: none;
+    }
+    .sum-div {
+        justify-content: space-around;
+    }
+}
+@media(max-width : 540px){
+    .TEXT{
+        font-size: 30px;
+    }
+    .sum-div img{
+        width: 50px;
+    }
+}
+@media(max-width : 340px){
+    .TEXT{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,29 @@
+h5{
+    font-weight: bold;
+}
+.Base{
+    width: 23%;
+    color: white;
+    margin: 0px 10px;
+    margin: 10px;
+}
+.Base .Num{
+    font-size: 100px;
+    color: rgb(131, 143, 182);
+}
+.Base .Num:hover{
+    color: white;
+}
+@media(max-width : 992px){
+    .Base{
+        width: 46%;
+    }
+    .Base .Num{
+        font-size: 70px;
+    }
+}
+@media(max-width : 768px){
+    .Base{
+        width: 80%;
+    }
+}

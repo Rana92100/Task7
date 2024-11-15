@@ -1,0 +1,45 @@
+.Contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+    background-image: url(../../imges/breadcrumb.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+    position: relative;
+}
+
+.phot2 {
+    position: absolute;
+    left: 70%;
+    width: 400px;
+    z-index: -2;
+}
+
+.phot1 {
+    position: absolute;
+    left: 0%;
+    width: fit-content;
+}
+
+@media(max-width : 1240px){
+    .phot2{
+        left:60%;
+    }
+}
+@media(max-width : 992px){
+    .phot2{
+        left:54%;
+    }
+}
+@media(max-width : 860px){
+    .phot2{
+        left: 48%;
+        width: 150px;
+    }
+}
+

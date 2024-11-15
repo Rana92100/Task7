@@ -1,0 +1,41 @@
+.div-card{
+    display: flex;
+    width: 65%;
+    margin:20px 0px 0px 0px;
+}
+.dis-icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.Father , .Father1{
+    width: 33%;
+    border-radius: 20px;
+    padding: 30px ;
+    background-color: white;
+}
+.cout{
+    margin-left: 20px;
+    font-size: 50px;
+    color: #c4c8ff;
+}
+.star{
+    color:#f98600;
+}
+.Father:hover {
+    background-color:  #384bff;
+}
+.Father:hover .cout , .Father:hover{
+    color: white;
+}
+@media(max-width : 1250px){
+    .Father1{
+        display: none;
+    }
+    .Father{
+        margin: auto;
+        width: fit-content;
+    }
+
+}

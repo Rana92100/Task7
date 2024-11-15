@@ -1,0 +1,112 @@
+.ready{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 100px 0px;
+}
+.chil1 {
+    width: 45%;
+    color: white;
+    border-radius: 20px;
+}
+
+.chil1 .IMG {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.chil1 .IMG img {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-Right-radius: 20px;
+}
+
+.LINE {
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+    margin: 15px 0px;
+}
+
+.ICON {
+    border: 1px white dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.div-ICON {
+    display: flex;
+    width: 100%;
+}
+
+.chil1 .DIV {
+    width: 100%;
+    padding: 20px;
+    background-color: #384bff;
+    border-top-left-radius: 20px;
+    border-top-Right-radius: 20px;
+}
+.chil2{
+    width:45% ;
+    border-radius: 20px;
+    /* padding-top: 50px; */
+}
+.Base-input{
+    display: flex;
+    margin: 30px 0px;
+}
+.Base-input input{
+    width: 90%;
+}
+.Text input{
+    width: 95%;
+    height: 180px;
+    border-right: 4px blue solid;
+}
+.chil2 button{
+    background-color: #384bff ;
+    color: white;
+    margin-top: 50px;
+}
+.chil2 label{
+    margin-bottom: 10px;
+}
+.chil3{
+    width: 100%;
+}
+.ready input{
+    border-radius: 10px;
+}
+@media(max-width : 900px){
+    .chil2{
+        padding: 0px;
+    }
+    .chil2 button{
+        margin-top: 5px;
+    }
+    .Text input{
+        height: 140px;
+    }
+}
+@media(max-width : 700px){
+    .ready{
+        flex-direction: column;
+    }
+    .chil1 , .chil2{
+        width: 100%;
+    }
+    .chil2 input{
+        width: 100%;
+    }
+    .Base-input{
+        flex-direction: column;
+    }
+}

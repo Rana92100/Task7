@@ -1,0 +1,32 @@
+.Dives{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.Dives  div img{
+    width: 170px;
+    margin-right: 10px;
+}
+.line2{
+    width: 100%;
+    height: 0.2px;
+    background-color: #a99af5;
+    margin: 20px 0px;
+}
+@media(max-width : 1100px){
+    .Dives  div img{
+        width: 120px; 
+    }
+}
+@media(max-width : 560px){
+    .ImG1{
+        display: none;
+    }
+    .ImG2{
+        width: 180px;
+    }
+}

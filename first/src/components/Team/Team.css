@@ -1,0 +1,78 @@
+.base-team{
+    width: 80%;
+    margin-left: 10%;
+}
+.child1-team{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.child1-team button{
+    width: 170px;
+    background-color:  #384bff;
+    border-radius: 30px;
+    color: white;
+    height: 50px;
+}
+.Chil1-team{
+    color: #384bff ;
+}
+.Chil1-team span{
+    margin: 0px 15px;
+}
+.sum-card6{
+    display: flex;
+    justify-content: space-between;
+}
+.sum-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px 0px;
+}
+.sum-line .card6-line6{
+    width: 33%;
+    height: 1px;
+    background-color: gray;
+}
+.img-card6{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.gray{
+    filter: grayscale(100%);
+}
+@media(max-width :1240px ){
+    .sum-card6{
+        flex-wrap: wrap;
+    }
+    .gray{
+        display: none;
+    }
+    .img-card6{
+        justify-content: center;
+    }
+    .card6-line6{
+        display: none;
+    }
+    .sum-line{
+        justify-content: center;
+    }
+}
+@media(max-width : 560px){
+    .child1-team button{
+        /* margin-top: 80px; */
+        padding:  0px 10px;
+    }
+}
+@media(max-width : 433px){
+    /* .child1-team button{
+        margin-right: 30px;
+        margin-top: 100px;
+        height: fit-content;
+    } */
+    .child1-team {
+        flex-direction: column;
+    }
+}
